@@ -8,8 +8,8 @@ A production-grade **B2B Cleaning & Hygiene Product Warehouse Management System*
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React 19 + Vite + TypeScript + Tailwind CSS v4 |
-| Backend | Express 5 + TypeScript (via `tsx`) |
+| Frontend | React 19 + Vite + JavaScript + Tailwind CSS v4 |
+| Backend | Express 5 + JavaScript (via `tsx`) |
 | Database | Supabase (PostgreSQL + Auth + Realtime) |
 | State | Zustand |
 | Data Fetching | TanStack Query v5 |
