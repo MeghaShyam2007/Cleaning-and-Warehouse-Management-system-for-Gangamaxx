@@ -5,7 +5,7 @@ Write-Host "Login OK - Role: $($loginRes.data.user.role)"
 
 $headers = @{ Authorization = "Bearer $token" }
 
-# Test AI Chatbot
+# Test AI Chatbots
 $chatRes = Invoke-RestMethod -Uri 'http://localhost:3001/api/ai/chat' -Method POST -ContentType 'application/json' -Headers $headers -Body '{"message":"hello"}'
 Write-Host "`nAI Chat Reply:"
 Write-Host $chatRes.data.reply
