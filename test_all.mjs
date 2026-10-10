@@ -14,7 +14,7 @@ async function run() {
   const h = { Authorization: `Bearer ${token}` };
   console.log('✅ Login OK - Role:', loginData.data.user.role);
 
-  // Test endpoints
+  // Test endpoint
   const tests = [
     '/products?page=1&limit=5',
     '/stock',
