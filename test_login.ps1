@@ -1,3 +1,4 @@
+# Try and Catch
 try {
     $r = Invoke-RestMethod -Uri 'http://localhost:3001/api/auth/login' -Method POST -ContentType 'application/json' -Body '{"email":"admin@gangamaxx.com","password":"Admin@123456"}'
     Write-Host "SUCCESS:"
