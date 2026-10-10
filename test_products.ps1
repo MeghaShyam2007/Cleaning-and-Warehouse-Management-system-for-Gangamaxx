@@ -1,3 +1,4 @@
+# Tokens 
 $token = (Invoke-RestMethod -Uri 'http://localhost:3001/api/auth/login' -Method POST -ContentType 'application/json' -Body '{"email":"admin@gangamaxx.com","password":"Admin@123456"}').data.session.access_token
 $h = @{ Authorization = "Bearer $token" }
 
