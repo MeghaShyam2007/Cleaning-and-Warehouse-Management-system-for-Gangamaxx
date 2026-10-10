@@ -1,4 +1,4 @@
-/**
+/*
  * migrate.mjs - Runs the Supabase schema migration and seed via the REST API
  * Uses the service role key to execute SQL through a pg RPC call.
  */
