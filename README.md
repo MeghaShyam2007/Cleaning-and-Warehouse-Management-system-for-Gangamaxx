@@ -2,7 +2,7 @@
 
 A production-grade **B2B Cleaning & Hygiene Product Warehouse Management System** built with React, Express, and Supabase.
 
----
+--
 
 ## Tech Stack
 
